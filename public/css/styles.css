@@ -1,0 +1,283 @@
+/* Reset some default browser styles */
+body, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+form {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+span {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+/* Add some spacing and styling for errors */
+#email_error, #password_match_error {
+    font-size: 14px;
+}
+
+#email_error ,#password_match_error {
+    margin-top: -10px;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+
+                /* Reset some default styles */
+                body,
+                h1,
+                p,
+                label,
+                input,
+                button,
+                a {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+
+                body {
+                    font-family: 'Arial', sans-serif;
+                    background-color: #f4f4f4;
+                    color: #333;
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100vh;
+                    margin: 0;
+                }
+
+                .header {
+                    background: #3678af;
+                    color: #fff;
+                    padding: 10px;
+                    width: 100%;
+                }
+
+                .header-content {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px 20px; /* Added padding for space around content */
+                }
+
+                .logo-link {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .logo {
+                    float: left;
+                    height: 60px;
+                }
+
+                .menu-list {
+                    display: none;
+                    width: 42px;
+                    margin-right: 14px;
+                }
+
+                .float-right {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .menu-links {
+                    display: flex;
+                    justify-content: flex-end; /* Align menu links to the right */
+                }
+
+                .menu-header {
+                    margin-left: 20px; /* Add margin between menu items */
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: bold;
+                    transition: color 0.3s ease;
+                }
+
+                .menu-header:hover {
+                    color: #eee; /* Change the hover color */
+                }
+
+                /* ... (remaining styles) */
+
+ 
+
+                .login-container {
+                    background-color: #fff;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    padding: 20px;
+                    margin-top: 20px;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+
+                h1 {
+                    color: #333;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                label {
+                    display: block;
+                    margin: 10px 0;
+                    color: #333;
+                }
+
+                input {
+                    width: 100%;
+                    padding: 8px;
+                    margin-bottom: 10px;
+                    box-sizing: border-box;
+                }
+
+                button,
+                .btn-login {
+                    background-color: #4caf50;
+                    color: #fff;
+                    padding: 10px;
+                    border: none;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    width: 100%;
+                    transition: background-color 0.3s ease;
+                }
+
+                button:hover,
+                .btn-login:hover {
+                    background-color: #45a049;
+                }
+
+                .forgot-password {
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    color: #333;
+                    margin-top: 10px;
+                }
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  }
+  .panel-body {
+    padding: 15px;
+  }
+  .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  .panel-heading > .dropdown .dropdown-toggle {
+    color: inherit;
+  }
+  .panel-default {
+    border-color: #ddd;
+}
+  .panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+@media (min-width: 992px){
+.col-md-6 {
+    width: 50%;
+    float: none;
+}}
+#wrapper {
+    display: flex;
+}
+
+#sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+}
+
+#content h1 {
+    color: #333;
+}
+/* Add styles for the avis-card */
+.avis-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add styles for the no-avis message */
+.no-avis {
+    font-style: italic;
+    color: #888;
+}
